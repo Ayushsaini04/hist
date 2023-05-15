@@ -1,0 +1,125 @@
+.Histogram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #chart {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }  
+  
+  .axis-title {
+    
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  
+.bar {
+    fill: steelblue;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .bar:hover {
+    fill: orange;
+    transform: scale(1.05);
+  }
+  
+  .bar:nth-child(1) {
+    fill: #1f77b4;
+  }
+  
+  .bar:nth-child(2) {
+    fill: #ff7f0e;
+  }
+  
+  .bar:nth-child(3) {
+    fill: #2ca02c;
+  }
+  
+  .bar:nth-child(4) {
+    fill: #d62728;
+  }
+  
+  .bar:nth-child(5) {
+    fill: #9467bd;
+  }
+  
+  .bar:nth-child(6) {
+    fill: #8c564b;
+  }
+  
+  .bar:nth-child(7) {
+    fill: #e377c2;
+  }
+  
+  .bar:nth-child(8) {
+    fill: #7f7f7f;
+  }
+  
+  .bar:nth-child(9) {
+    fill: #bcbd22;
+  }
+  
+  .bar:nth-child(10) {
+    fill: #17becf;
+  }
+  
+  .bar:nth-child(11) {
+    fill: #aec7e8;
+  }
+  
+  .bar:nth-child(12) {
+    fill: #ffbb78;
+  }
+  
+  .bar:nth-child(13) {
+    fill: #98df8a;
+  }
+  
+  .bar:nth-child(14) {
+    fill: #ff9896;
+  }
+  
+  .bar:nth-child(15) {
+    fill: #c5b0d5;
+  }
+  
+  .bar:nth-child(16) {
+    fill: #c49c94;
+  }
+  
+  .bar:nth-child(17) {
+    fill: #f7b6d2;
+  }
+  
+  .bar:nth-child(18) {
+    fill: #dbdb8d;
+  }
+  
+  .bar:nth-child(19) {
+    fill: #9edae5;
+  }
+  
+  .bar:nth-child(20) {
+    fill: #ad494a;
+  }
+  
